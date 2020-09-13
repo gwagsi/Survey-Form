@@ -1,0 +1,119 @@
+:root {
+  background: url("./pexels-wherbson-rodrigues-4445686\(1\).jpg");
+  border-image-width: auto;
+  background-size: cover;
+}
+#main {
+  background-color: #1d1431;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  border-radius: 5%;
+  opacity: 0.95;
+}
+#survey-form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+}
+#sex {
+  text-align: left;
+}
+#title {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 75px;
+  color: bisque;
+  padding: 0%;
+  margin-bottom: 2px;
+}
+
+#submit {
+  border-radius: 12px;
+  width: 100px;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #5fb4f7;
+  color: gainsboro;
+}
+#textarea {
+  border-radius: 10px;
+  color: gray;
+  height: 50px;
+  width: 400px;
+  padding: 3px;
+  border-width: 2px;
+  margin: 10px;
+}
+#label2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+#name {
+  width: 400px;
+  height: 35px;
+  border-radius: 10px;
+  border-color: #5fb4f7;
+  padding: 3px;
+  border-width: 2px;
+  margin: 10px;
+}
+#email {
+  width: 400px;
+  height: 35px;
+  border-radius: 10px;
+  border-color: #5fb4f7;
+  padding: 3px;
+  border-width: 2px;
+  margin: 10px;
+}
+#number {
+  width: 400px;
+  height: 35px;
+  border-radius: 10px;
+  border-color: #5fb4f7;
+  padding: 3px;
+  border-width: 2px;
+  margin: 10px;
+}
+#name-label {
+  color: aliceblue;
+  text-align: left;
+  margin: 10px;
+}
+#name-label:hover {
+  color: blue;
+}
+#email-label {
+  color: aliceblue;
+  text-align: left;
+  margin: 10px;
+}
+#email-label:hover {
+  color: blue;
+}
+#number-label {
+  color: aliceblue;
+  text-align: left;
+  margin: 10px;
+}
+#number-label:hover {
+  color: blue;
+}
+#dropdown {
+  width: 410px;
+  height: 45px;
+  border-radius: 10px;
+  border-color: #5fb4f7;
+  padding: 3px;
+  border-width: 2px;
+  margin: 10px;
+}
+.radio {
+  display: flex;
+  justify-content: flex-start;
+}

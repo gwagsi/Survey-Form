@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <div id="main">
@@ -27,20 +28,24 @@
           <option value="option2">Option 2</option>
           <option value="option3">Option 3</option>
         </select>
-        <label for="sex">
-          <input type="radio" id="sex" name="gender" value="male" />Male
-        </label>
-        <label for="sex">
-          <input type="radio" id="sex" name="gender" value="female" />Female
-        </label>
-        <label for="age-group">
-          <input type="checkbox" name="Teen" id="age-group" value="age1" />
-          I have a bike
-        </label>
-        <label for="age-group">
-          <input type="checkbox" name="Adult" id="age-group" value="age2" />I
-          have a car
-        </label>
+        <div class="radio">
+          <label for="sex1">
+            <input type="radio" id="sex1" name="gender" value="male" />Male
+          </label>
+          <label for="sex2">
+            <input type="radio" id="sex1" name="gender" value="female" />Female
+          </label>
+        </div>
+        <section id="label2">
+          <label for="age-group">
+            <input type="checkbox" name="Teen" id="age-group" value="age1" />
+            I have a bike
+          </label>
+          <label for="age-group">
+            <input type="checkbox" name="Adult" id="age-group" value="age2" />I
+            have a car
+          </label>
+        </section>
         <textarea name="summary" id="textarea" cols="30" rows="10"></textarea>
         <button id="submit">Submit</button>
       </form>
